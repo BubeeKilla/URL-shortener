@@ -2,7 +2,7 @@ require 'aws-sdk-dynamodb'
 require 'securerandom'
 
 # AWS DynamoDB configuration
-dynamodb = Aws::DynamoDB::Client.new(region: 'us-east-1')
+dynamodb = Aws::DynamoDB::Client.new(region: 'eu-central-1')
 
 TABLE_NAME = 'url-shortener'
 
